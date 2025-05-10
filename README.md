@@ -47,7 +47,7 @@ Veja o resumo completo abaixo.
 ## 📘 Como citar este repositório
 
 **Oliveira, W. H. A.** (2025). *Meta-análise de técnicas de IA em sistemas CAD para medicina de precisão*. Repositório GitHub com dados e scripts de reprodutibilidade.  
-Disponível em: ()
+Disponível em: (https://github.com/pySpeed10/Material_Complementar_CAD)
 
 ---
 
