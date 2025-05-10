@@ -4,9 +4,9 @@ Este repositório reúne os códigos, gráficos, dados extraídos e informaçõe
 
 ## 📌 Objetivos
 
-- Identificar as principais técnicas de IA em CADs.
-- Avaliar desempenho médio por técnica (CNN, XGBoost etc.).
-- Mapear os datasets mais utilizados por tipo de imagem e doença.
+- 
+- 
+- 
 
 ## 📂 Estrutura do Repositório
 
@@ -29,18 +29,26 @@ Veja o resumo completo abaixo.
 
 ---
 
-## 📄 Quadro-resumo dos principais datasets por tipo de imagem e doença
+## 📄 Quadro-resumo dos principais datasets - Análise de Qualidade Parsifal
 
-| Nome do Dataset        | Tipo de Imagem    | Modalidade         | Doença                      | Link                         | Acessível? |
-|------------------------|-------------------|---------------------|-----------------------------|------------------------------|------------|
-| Mini-DDSM              | Mamografia        | 2D                  | Câncer de mama              | [Link](https://wiki.cancerimagingarchive.net/display/Public/Mini-DDSM) | ✅         |
-| HAM10000               | Dermatológica     | Foto digital        | Câncer de pele (melanoma)   | [Link](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) | ✅         |
-| DRIVE                  | Fundoscopia       | 2D                  | Retinopatia diabética       | [Link](https://drive.grand-challenge.org/) | ✅         |
-| ChestX-ray14           | Raio-X torácico   | 2D                  | Doenças pulmonares (COVID, Pneumonia) | [Link](https://www.kaggle.com/datasets/nih-chest-xrays/data) | ✅         |
-| BraTS                  | Ressonância       | Volumétrica (3D)    | Tumores cerebrais           | [Link](https://www.med.upenn.edu/cbica/brats2020/data.html) | ✅         |
-| ISIC 2018              | Dermatológica     | Foto digital        | Lesões cutâneas             | [Link](https://challenge.isic-archive.com/) | ✅         |
-| TCGA-LGG               | Ressonância (MRI) | Volumétrica (3D)    | Gliomas cerebrais           | [Link](https://www.cancer.gov/ccg/research/genome-sequencing/tcga) | ✅         |
-| COVID-CTset            | Tomografia        | 2D                  | COVID-19                    | [Link](https://github.com/UCSD-AI4H/COVID-CT) | ✅         |
+| Nome do Dataset                     | Tipo de Imagem              | Modalidade                         | Doença                                            | Link                                                                                      | Acessível? |
+|------------------------------------|-----------------------------|------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------|------------|
+| HAM10000                           | Dermatológica               | Dermatoscopia                      | Câncer de pele                                    | https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000                                  | Sim        |
+| COVID-Chestxray set                | Radiográfica (peito)        | Raio-X                             | COVID-19                                          | https://github.com/ieee8023/covid-chestxray-dataset                                       | Sim        |
+| Kaggle Chest X-Ray Dataset         | Radiográfica (peito)        | Raio-X                             | Pneumonia / COVID-19                              | https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia                             | Sim        |
+| ISIC 2017                          | Dermatológica               | Dermatoscopia                      | Câncer de pele (melanoma, nevus, etc.)            | https://challenge.isic-archive.com/data                                                   | Sim        |
+| ISIC 2018                          | Dermatológica               | Dermatoscopia                      | Câncer de pele                                    | https://challenge.isic-archive.com/data                                                   | Sim        |
+| PH2                                | Dermatológica               | Dermatoscopia                      | Melanoma                                          | https://www.fc.up.pt/addi/ph2%20database.html                                              | Sim        |
+| DRIVE                              | Retinografia                 | Fundo de olho                      | Retinopatia diabética                             | https://drive.grand-challenge.org                                                         | Sim        |
+| GEO (Gene Expression Omnibus)     | Genômico / Expressão gênica | Microarray / RNA-seq               | Diversas (ex: câncer, doenças cardíacas)          | https://www.ncbi.nlm.nih.gov/geo/                                                         | Sim        |
+| TCGA                               | Histopatológico / Genômico  | Diversos (WGS, RNA-seq, etc.)      | Câncer (múltiplos tipos)                          | https://www.cancer.gov/ccg/research/genome-sequencing/tcga                                 | Sim        |
+| GTEx                               | Genômico / Transcriptoma    | RNA-seq                            | Variações genéticas em tecidos saudáveis          | https://gtexportal.org/home/                                                              | Sim        |
+| Z-Alizadeh Sani                    | Dados clínicos              | ECG / Clínico                      | Doença arterial coronariana (CAD)                 | https://archive.ics.uci.edu/dataset/412/z+alizadeh+sani                                   | Sim        |
+| GDSC                               | Genômico / Quimioterápico   | Drug sensitivity + Genômica        | Câncer                                            | https://www.cancerrxgene.org/                                                             | Sim        |
+| COVID-19 Radiography Dataset       | Radiográfica (peito)        | Raio-X                             | COVID-19                                          | https://www.kaggle.com/tawsifurrahman/covid19-radiography-database                        | Sim        |
+| MTBLS3444                          | Metabolômico                | LC-MS / NMR                        | COVID-19                                          | https://www.ebi.ac.uk/metabolights/MTBLS3444                                              | Sim        |
+| MTBLS1129                          | Metabolômico                | LC-MS / NMR                        | COVID-19                                          | https://www.ebi.ac.uk/metabolights/MTBLS1129                                              | Sim        |
+| PR000918                           | Metabolômico                | LC-MS                              | COVID-19                                          | https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=PR000918   | Sim        |
 
 ---
 
