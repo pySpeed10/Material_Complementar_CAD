@@ -46,13 +46,8 @@ Veja o resumo completo abaixo.
 
 ## 📘 Como citar este repositório
 
-@misc{wellerson2025cadmeta,
-author = {Oliveira, Wellerson H. A.},
-title = {Meta-análise de técnicas de IA em sistemas CAD para medicina de precisão},
-year = {2025},
-howpublished = {\url{https://github.com/wellerson/cad-meta-analysis-ai-health}},
-note = {Repositório GitHub com dados e scripts de reprodutibilidade}
-}
+**Oliveira, W. H. A.** (2025). *Meta-análise de técnicas de IA em sistemas CAD para medicina de precisão*. Repositório GitHub com dados e scripts de reprodutibilidade.  
+Disponível em: ()
 
 ---
 
