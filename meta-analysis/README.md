@@ -2,7 +2,7 @@
 
 Este diretório contém todos os scripts utilizados para realizar as análises estatísticas da revisão sistemática com meta-análise e meta-regressão. As análises foram realizadas em **R** e **Python**, e estão organizadas em duas subpastas principais:
 
-**Observação: Sempre considerado o modelo de efeitos aleatórios DerSimonian-Laird, visto a alta heterogeneidade real dos estudos, ou seja diferentes casos clínicos, exames e técnicas**
+**Observação: Foi aplicado o modelo de efeitos aleatórios DerSimonian-Laird, visto a alta heterogeneidade real dos estudos**
 ---
 
 ## 🧮 `meta-analysis/R/`: Análises Estatísticas em R
