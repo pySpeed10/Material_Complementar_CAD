@@ -44,8 +44,8 @@ Essas visualizações ajudam a interpretar os resultados da meta-análise de for
 
 ## 🧰 Bibliotecas e Ferramentas Utilizadas
 
-- **R**: `metafor`
-- **Python**: `statsmodels`, `pandas`, `numpy`, `matplotlib`, `math`, `os`
+- **R 4.5.0**: `metafor`
+- **Python 3.10.0**: `statsmodels`, `pandas`, `numpy`, `matplotlib`, `math`, `os`
 
 ---
 
