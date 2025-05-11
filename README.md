@@ -2,20 +2,38 @@
 
 Este repositório reúne os códigos, gráficos, dados extraídos e informações da meta-análise conduzida sobre técnicas de Aprendizado de Máquina e Visão Computacional aplicadas a sistemas CAD (Computer-Aided Diagnosis) na medicina de precisão.
 
-## 📌 Objetivos
+## 📌 Objetivos do Material Complementar
 
-- 
-- 
-- 
+- Auxiliar a comunidade acadêmica com insights reprodutivéis e transparentes
+- Estimular o compartilhamento de Datasets
 
 ## 📂 Estrutura do Repositório
 
-- `meta-analysis/`: Scripts em R usados para meta-análise e meta-regressão.
-- `python/`: Scripts de geração de gráficos de floresta com `statsmodels`.
-- `data/`: Arquivo CSV com resumo dos datasets usados nos artigos analisados.
-- `docs/`: PDF do artigo completo e apresentações.
-- `papers/`: Lista dos artigos incluídos na revisão sistemática.
-- `.bib/`: Arquivo BibTeX com todas as referências citadas.
+- Material_Complementar_CAD/
+│
+├── data/
+│ └── Arquivos CSV e Excel com informações dos artigos analisados.
+│
+├── docs/
+│ └── PDF do artigo completo e apresentações.
+│
+├── meta-analysis/
+│ ├── r/
+│ │ └── Scripts em R usados para meta-análise e meta-regressão.
+│ │ Contém cálculos de heterogeneidade (acurácia, sensibilidade, precisão, F-score),
+│ │ modelos de efeitos aleatórios DerSimonian-Laird, e outras análises estatísticas.
+│ │
+│ └── python/
+│ └── Scripts em Jupyter Notebook para:
+│ • Geração de gráficos de floresta por métrica (com statsmodels).
+│ • Análise por subgrupos (técnica e doença).
+│ • Cálculos de gráficos scatter para número de amostras por métrica.
+│ • Gráficos de efeito estimado das técnicas de IA sobre sensibilidade, precisão e F-score (vs. CNN).
+│
+├── papers/
+│ ├── .bib/
+│ │ └── Arquivo BibTeX com todas as referências citadas, exportadas via Zotero.
+| |
 
 ## 📊 Resultados principais
 
