@@ -17,7 +17,7 @@ Essas visualizações ajudam a interpretar os resultados da meta-análise de for
 
 ## 🧰 Bibliotecas e Ferramentas Utilizadas
 
-- **Python**: `statsmodels`, `pandas`, `seaborn`, `matplotlib`, `scipy`
+- **Python**: `statsmodels`, `pandas`, `numpy`, `matplotlib`, `math`, `os`
 
 > Este diretório é essencial para reproduzir as análises estatísticas e gráficas da pesquisa, promovendo transparência e reprodutibilidade científica.
 
