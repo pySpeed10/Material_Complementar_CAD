@@ -9,9 +9,9 @@ Este diretório contém todos os notebooks em Python usados para:
   - F1-score  
 - **Análises por subgrupos**, segmentando os resultados por:
   - Tipo de Técnica de IA (CNN, XGBoost, etc.)
-  - Tipo de Doença (ex: melanoma, CAD, malária)
+  - Tipo de Doença (ex: câncer de pele, Doença Arterial Coronariana (CAD), malária)
 - **Gráficos de dispersão (scatter plots)** relacionando o **tamanho da amostra** com as métricas de desempenho
-- Visualização dos **efeitos estimados por técnica** (comparando técnicas como XGBoost, ResNet, etc. com a CNN como referência)
+- Visualização dos **efeitos estimados por técnica** (comparando técnicas como XGBoost, Random Forest, etc. com a CNN como referência)
 
 Essas visualizações ajudam a interpretar os resultados da meta-análise de forma clara e intuitiva.
 
