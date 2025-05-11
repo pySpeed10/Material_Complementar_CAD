@@ -9,31 +9,33 @@ Este repositório reúne os códigos, gráficos, dados extraídos e informaçõe
 
 ## 📂 Estrutura do Repositório
 
-- Material_Complementar_CAD/
-│
-├── data/
-│ └── Arquivos CSV e Excel com informações dos artigos analisados.
-│
-├── docs/
-│ └── PDF do artigo completo e apresentações.
-│
-├── meta-analysis/
-│ ├── r/
-│ │ └── Scripts em R usados para meta-análise e meta-regressão.
-│ │ Contém cálculos de heterogeneidade (acurácia, sensibilidade, precisão, F-score),
-│ │ modelos de efeitos aleatórios DerSimonian-Laird, e outras análises estatísticas.
-│ │
-│ └── python/
-│ └── Scripts em Jupyter Notebook para:
-│ • Geração de gráficos de floresta por métrica (com statsmodels).
-│ • Análise por subgrupos (técnica e doença).
-│ • Cálculos de gráficos scatter para número de amostras por métrica.
-│ • Gráficos de efeito estimado das técnicas de IA sobre sensibilidade, precisão e F-score (vs. CNN).
-│
-├── papers/
-│ ├── .bib/
-│ │ └── Arquivo BibTeX com todas as referências citadas, exportadas via Zotero.
-| |
+- **Material_Complementar_CAD/**
+  │
+  ├── **data/**
+  │   └── Arquivos CSV e Excel com informações dos artigos analisados.
+  │
+  ├── **docs/**
+  │   └── PDF do artigo completo e apresentações.
+  │
+  ├── **meta-analysis/**
+  │   │
+  │   ├── **r/**
+  │   │   └── Scripts em R usados para meta-análise e meta-regressão.
+  │   │       - Cálculos de heterogeneidade (acurácia, sensibilidade, precisão, F-score).
+  │   │       - Modelos de efeitos aleatórios DerSimonian-Laird.
+  │   │       - Outras análises estatísticas.
+  │   │
+  │   └── **python/**
+  │       └── Scripts em Jupyter Notebook para:
+  │           • Geração de gráficos de floresta por métrica (com `statsmodels`).
+  │           • Análise por subgrupos (técnica e doença).
+  │           • Cálculos de gráficos scatter para número de amostras por métrica.
+  │           • Gráficos de efeito estimado das técnicas de IA sobre sensibilidade, precisão e F-score (vs. CNN).
+  │
+  ├── **papers/**
+  │   ├── **.bib/**
+  │   │   └── Arquivo BibTeX com todas as referências citadas, exportadas via Zotero.
+  │   │
 
 ## 📊 Resultados principais
 
