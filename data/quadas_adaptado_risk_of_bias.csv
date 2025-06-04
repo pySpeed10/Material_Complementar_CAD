@@ -1,0 +1,14 @@
+Study,D1: Patient Selection,D2: Index Test,D3: Reference Standard,D4: Flow and Timing,D5: Data Robustness,D6: Interpretability
+[32],No Information,No Information,Low,Low,Low,Low
+[30],No Information,Some Concerns,Low,Low,Low,Some Concerns
+[33],No Information,Some Concerns,Some Concerns,Low,Low,Low
+[34],No Information,Some Concerns,No Information,No Information,Some Concerns,High
+[35],Low,Some Concerns,Low,Low,Some Concerns,Some Concerns
+[36],No Information,Some Concerns,Low,Low,Some Concerns,High
+[31],Some Concerns,Some Concerns,Some Concerns,Some Concerns,Some Concerns,No Information
+[37],No Information,Some Concerns,Some Concerns,No Information,Low,Low
+[39],No Information,Some Concerns,No Information,No Information,Low,Low
+[40],Low,Low,Low,Low,Low,Low
+[38],No Information,Some Concerns,Some Concerns,Some Concerns,Some Concerns,No Information
+[41],No Information,Some Concerns,Some Concerns,Some Concerns,Some Concerns,No Information
+[16],Some Concerns,Low,Some Concerns,Low,Low,High
